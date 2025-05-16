@@ -20,6 +20,16 @@ def tampilkan_tentang_aplikasi():
     st.write("""
     Aplikasi ini membantu menghitung kebutuhan kalori dan konsumsi gula ideal berdasarkan
     data pribadi dan tingkat aktivitas harian. Cocok untuk kamu yang ingin hidup lebih sehat! 🍏💪
+    Kalkulator kebutuhan gula harian adalah alat (bisa berupa aplikasi, situs web, atau tabel manual) yang digunakan untuk memperkirakan berapa banyak gula tambahan yang dapat dikonsumsi 
+    seseorang dalam sehari tanpa membahayakan kesehatan, 
+    berdasarkan faktor-faktor seperti:
+    - Usia
+    - Jenis kelamin
+    - Berat badan
+    - Tingkat aktivitas fisik 
+    Gula tambahan sebaiknya tidak lebih dari 10% dari total kalori harian (lebih ideal jika di bawah 5%). Misalnya, jika kebutuhan kalori harian seseorang adalah 2000 kkal, maka:
+    - 10% dari 2000 kkal = 200 kkal = sekitar 50 gram gula tambahan per hari.
+    5% dari 2000 kkal = 100 kkal = sekitar 25 gram gula tambahan per hari.
     """)
 
 def tampilkan_pengenalan_kelompok():
@@ -59,7 +69,7 @@ def main():
         }
 
         h1, h2, h3, h4, h5, h6, p, label, .css-1cpxqw2, .css-qrbaxs {
-            color: BLACK !important;
+            color: black !important;
         }
 
         .kalkulator-container {
@@ -71,7 +81,7 @@ def main():
         }
 
         .kalkulator-container label, .kalkulator-container span, .kalkulator-container p {
-            color: BLACK !important;
+            color: black !important;
         }
         </style>
     """, unsafe_allow_html=True)
